@@ -4,6 +4,7 @@ from safe_eth.eth import EthereumClient
 from safe_eth.safe import Safe
 from hexbytes import HexBytes
 from web3 import Web3
+from safe_eth.eth.oracles import UniswapV3Oracle
 
 class TransactionExecutor:
     """
